@@ -1,6 +1,6 @@
 # go
 
-FROM alpine:latest
+FROM frolvlad/alpine-glibc:latest
 MAINTAINER Colin <admin@skyin.win>
 RUN mkdir -p /GO
 WORKDIR /GO
